@@ -6,7 +6,7 @@ ARG DEBIAN_FRONTEND=noninteractive
 
 # Install packages
 RUN apt-get update -qy && apt-get upgrade -qy
-RUN apt-get install nano wget lame build-essential libffi-dev python-pip python-dev python3-dev python3-pip libffi-dev -y
+RUN apt-get install nano wget lame build-essential libffi-dev python-dev python3-dev python3-pip libffi-dev -y
 
 # Download libspotify & compile it
 # RUN wget https://developer.spotify.com/download/libspotify/libspotify-12.1.51-Linux-x86_64-release.tar.gz && \
