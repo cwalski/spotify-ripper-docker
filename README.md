@@ -1,4 +1,4 @@
-> A Debian Stretch (slim) image with python, pip, libspotify and spotify-ripper
+> A Debian Bullseye (slim) image with python, pip, libspotify and spotify-ripper
 
 ## Prereqs
 1. Install Docker and make sure the Docker daemon is running.
@@ -6,7 +6,7 @@
 3. Modify the config if needed
 
 ## Installation
-1. `git clone https://github.com/thibmaek/spotify-ripper-docker`
+1. `git clone https://github.com/cwalski/spotify-ripper-docker`
 2. Add username & password in the `config.ini` file in this repo
 3. `docker build -t spotify-ripper .`
 4. `docker run -itd -v /home/user/download:/data --name spotify-ripper spotify-ripper`
